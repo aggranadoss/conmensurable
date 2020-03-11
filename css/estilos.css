@@ -20,6 +20,11 @@ header{
 	width: 98%;
 	margin: auto;
 }
+.contenedor a {
+	text-decoration: none;
+	color: #F2F2F2;
+	font-family: 'Acme', sans-serif;
+}
 .icon-spin2 {
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -58,18 +63,49 @@ header label:hover {
 	color: #F2F2F2;
 	text-decoration: none;
 }
+.boxcero {
+	margin-top: 80px;
+	display: flex;	
+	flex-direction: column;
+	align-self: center;	
+	background-color: rgba(26, 255, 255, 0.5);
+	width: 80%;
+	height: 250px;
+}
+.boxcero h2 {
+	text-align: center;	
+	color: #F2F2F2;
+	font-family: 'Acme', sans-serif;
+}
+.boxcero p {	
+	text-align: right;
+	color: #F2F2F2;
+	font-family: 'Arvo', serif;
+}
+.boxone {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;	
+	background-color: rgba(26, 255, 255, 0.5);
+	width: 80%;
+	height: 250px;
+}
+.boxone p {
+	text-align: right;
+	color: #F2F2F2;
+	font-family: 'Arvo', serif;
+}
 footer {
 	display: flex;
+	margin-top: 20px;
 	flex-direction: row;
-	margin-top: 10px;
 	justify-content: center;
-	margin: 5px;
 	list-style: none;
-	padding: 0;
-	justify-content: right;
 }
 footer li a {
 	font-family: 'Acme', sans-serif;
+	border-right: 1px solid #F2F2F2;
 	padding:  20px 25px;
 	color: #F2F2F2;
 	text-decoration: none;
