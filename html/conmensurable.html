@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="/css/estilos.css">
 		<title>conmensurable</title>
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	</head>
 		<body>
 			<header>
@@ -26,13 +27,25 @@
 					</nav>
 			</header>
 			<div class="boxcero">
-				 <h2> LA DESIGUALDAD DE NESBITT </h2>				 
-				<p>La desigualdad de Nesbitt es un teorema el cual tiene distintas demostraciones. Éste establece que para números positivos a, b, c,<br>
+				 <h2> LA DESIGUALDAD DE NESBITT </h2>	
+
+
+				<p>	
+
+					La desigualdad de Nesbitt es un teorema el cual tiene distintas demostraciones. Establecemos que para enteros positivos a, b, c,
+
+									$$ \frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \geq \frac{3}{2}$$
+				
+					con igualdad cuando todas las variables son iguales.
+
+					Todas las demostraciones prueban de manera muy general.
 					<br>
-					Todas las demostraciones prueban de manera muy general.<br>
-					Si     son positivos y      entonces <br>
-					o de manera equivalente <br>
-					la igualdad se cumple cuando      son iguales
+					Si son positivos y  $$ \sum_{i=1}^{n}a_{i} = S $$ entonces 
+					$$ \sum_{i=1}^{n} \frac{a_{i}}{S - a_{i} } \geq \frac{n}{n-1} $$ 
+					<br>
+					o de manera equivalente $$ \sum_{i=1}^{n} \frac{S}{S - a_{i} } \geq \frac{n^2}{n-1} $$
+					<br>
+					la igualdad se cumple cuando son iguales
 				</p>				
 			</div>
 			<div class="boxone">
@@ -44,6 +57,10 @@
 					El mejor sitio de aprendizaje en habla hispana.
 				</p>
 			</div>
+
+				
+
+
 			<footer>
 				<li><a href="">NOSOTROS</a></li>
 				<li><a href="">CONTÁCTENOS</a></li>
