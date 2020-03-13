@@ -75,7 +75,7 @@ header label:hover {
 	align-self: center;	
 	background-color: rgba(101, 133, 140, 0.4);
 	width: 80%;
-	height: 250px;
+	height: 800px;
 }
 .boxcero h2 {
 	text-align: center;	
@@ -84,21 +84,6 @@ header label:hover {
 }
 
 .boxcero p {	
-	text-align: right;
-	color: #D9CDBF;
-	font-family: 'Arvo', serif;
-}
-.boxone {
-	border-radius: 1em;
-	margin-top: 80px;
-	display: flex;
-	flex-direction: column;
-	align-self: center;	
-	background-color: rgba(101, 133, 140, 0.4);
-	width: 80%;
-	height: 250px;
-}
-.boxone p {
 	text-align: right;
 	color: #D9CDBF;
 	font-family: 'Arvo', serif;
